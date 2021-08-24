@@ -11,7 +11,7 @@ Open and view the Project using the `.zip` file provided or at my [Github Reposi
 - [Development](#development)
 - [Features](#features)
 - [Running the App](#running-the-app)
-- [References](#references)
+
 
 ## Getting Started
 
