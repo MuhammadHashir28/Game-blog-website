@@ -3,102 +3,111 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn about Batman Arkham Knight - Features, gameplay mechanics, and storyline details.">
-  <title>About Batman Arkham Knight</title>
-  <link rel="stylesheet" type="text/css" href="sample.css" />
+  <meta name="description" content="Learn about Batman Arkham Knight story, gameplay systems, Batmobile, and Gotham City.">
+  <title>Story | Batman Arkham Knight</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sample.css">
+  <script src="effects.js" defer></script>
 </head>
-<body>
+<body class="story-page">
   <div id="container">
-    <!-- Header -->
-    <header id="header" class="logo">
-      <img src="logo2.jpg" alt="Batman Arkham Knight Logo">
-    </header>
-
-    <!-- Main Content Area -->
-    <div id="main">
-      <!-- Navigation Sidebar -->
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Batman Arkham Knight home">
+        <span class="" aria-hidden="true"><img src="arkham-logo.png" alt=""></span>
+        
+      </a>
       <nav id="navigation">
         <ul>
-          <li><a href="index.html">🏠 Home</a></li>
-          <li><a href="about.html">ℹ️ About</a></li>
-          <li><a href="watch.html">🎬 Trailer</a></li>
-          <li><a href="contact.html">📧 Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="about.html">Story</a></li>
+          <li><a href="watch.html">Trailer</a></li>
+          <li><a href="purchase.html">Purchase</a></li>
+          <li><a href="contact.html">Community</a></li>
         </ul>
       </nav>
+    </header>
 
-      <!-- Content Section -->
-      <div id="content" class="about">
-        <h2>About the Game</h2>
-        
-        <img src="aboutimg.png" alt="Batman Arkham Knight Concept Art">
-        
-        <p>
-          <strong>Batman: Arkham Knight</strong> is a 2015 action-adventure video game developed by Rocksteady Studios and 
-          published by Warner Bros. Interactive Entertainment for the PlayStation 4 and Xbox One video game consoles, and 
-          Microsoft Windows. Based on the DC Comics superhero Batman, it is the successor to the 2013 video game Batman: 
-          Arkham Origins, and the fourth main installment in the Batman: Arkham series. Arkham Knight was released 
-          worldwide on June 23, 2015.
-        </p>
+    <main>
+      <section class="page-hero story-hero tilt-surface">
+        <div>
+          <p class="eyebrow">Story Dossier</p>
+          <h1>The final chapter of the Arkham trilogy</h1>
+          <p>
+            One year after Arkham City, Scarecrow returns to empty Gotham and unite its most dangerous criminals.
+            Batman must fight through fear toxin, militia forces, and the mystery of the Arkham Knight.
+          </p>
+        </div>
+      </section>
 
-        <p>
-          Written by Sefton Hill, Ian Ball and Martin Lancaster, Arkham Knight is based on the franchise's long-running 
-          comic book mythos. Set one year after the events of 2011's Batman: Arkham City, the game's main storyline follows 
-          Batman as he confronts Scarecrow, who has launched an attack on Gotham City, causing a city-wide evacuation. 
-          Scarecrow, with the help of the mysterious Arkham Knight, is also able to unite Batman's greatest foes in an 
-          attempt to finally destroy Batman.
-        </p>
+      <section class="section article-layout tilt-surface">
+        <article class="article-card">
+          <p class="eyebrow">Overview</p>
+          <h2>About the Game</h2>
+          <p>
+            Batman: Arkham Knight is a 2015 action-adventure game developed by Rocksteady Studios and published by
+            Warner Bros. Interactive Entertainment. It brings the acclaimed Arkham trilogy to its conclusion with
+            a larger Gotham, upgraded combat, expanded predator encounters, and the first fully playable Batmobile
+            in the main series.
+          </p>
+          <p>
+            The game is presented from a third-person perspective and focuses on melee combat, stealth, gadgets,
+            detective work, and high-speed vehicle gameplay. Side missions let players hunt major villains across
+            the city while the main story escalates toward a psychological battle for Batman's identity.
+          </p>
+        </article>
 
-        <p>
-          The game is presented from a third-person perspective, with a primary focus on Batman's melee combat, stealth 
-          abilities, detective skills, and gadgets. Arkham Knight also introduces the Batmobile as a playable vehicle, 
-          which can be used for transportation or combat. The game expands Batman's arsenal of gadgets and combat attacks 
-          and offers a more open world structure, allowing the player to complete side missions away from the primary storyline.
-        </p>
+        <aside class="intel-card">
+          <img src="aboutimg.png" alt="Batman Arkham Knight cover art">
+          <dl>
+            <div>
+              <dt>Developer</dt>
+              <dd>Rocksteady Studios</dd>
+            </div>
+            <div>
+              <dt>Publisher</dt>
+              <dd>Warner Bros. Interactive Entertainment</dd>
+            </div>
+            <div>
+              <dt>Platforms</dt>
+              <dd>PC, PlayStation 4, Xbox One</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
 
-        <p>
-          The console versions of Arkham Knight received acclaim from reviewers, particularly for its narrative, visuals, 
-          gameplay, combat, and world designs, with most criticism given to the emphasis on the Batmobile. Upon its release, 
-          the game was the fastest selling game of 2015, and the fastest selling game of the Arkham series, reaching over 5 
-          million units sold globally by October 2015. Rocksteady released additional content for the game, including 
-          story-driven missions, challenge maps and skins for Batman and his allies, as well as new Batmobiles from Batman's 
-          history and custom racetracks for them.
-        </p>
-      </div>
-    </div>
+      <section class="section timeline tilt-surface">
+        <div>
+          <span>01</span>
+          <h3>Fear takes the city</h3>
+          <p>Scarecrow forces an evacuation and turns Gotham into a battlefield.</p>
+        </div>
+        <div>
+          <span>02</span>
+          <h3>The militia arrives</h3>
+          <p>A trained army locks down districts, rooftops, roads, and checkpoints.</p>
+        </div>
+        <div>
+          <span>03</span>
+          <h3>The Knight reveals himself</h3>
+          <p>Batman faces an enemy built specifically to counter everything he does.</p>
+        </div>
+      </section>
+    </main>
 
-    <!-- Footer -->
     <footer id="footer">
-      <div>
-        <div id="others">
-          <img src="rightlogos.png" alt="Game Logos">
-        </div>
-
-        <div id="socialmedia">
-          <b>🌐 Follow Us On Social Media</b>
-          <a href="https://www.facebook.com/BatmanArkhamUK" target="_blank">
-            <img src="facebook.png" alt="Facebook" title="Facebook">
-          </a>
-          <a href="https://twitter.com/BatmanArkham" target="_blank">
-            <img src="twitter.png" alt="Twitter" title="Twitter">
-          </a>
-          <a href="https://www.youtube.com/user/BatmanArkhamCity" target="_blank">
-            <img src="youtube.png" alt="YouTube" title="YouTube">
-          </a>
-          <a href="https://instagram.com/batmanarkham" target="_blank">
-            <img src="instagram.png" alt="Instagram" title="Instagram">
-          </a>
-        </div>
-
-        <div id="copyrights">
-          <div id="copyrightbox">
-            <sub>
-              <b>© 2024 HashirLimited</b><br>
-              Batman Arkham Knight - All Rights Reserved<br>
-              <small>Created with passion for Batman fans</small>
-            </sub>
-          </div>
-        </div>
+      <div class="footer-brand">
+        <span class="" aria-hidden="true"><img src="arkham-logo.png" alt=""></span>
+        <p>Batman Arkham Knight fan blog</p>
       </div>
+      <div id="socialmedia" aria-label="Social links">
+        <a href="https://www.facebook.com/BatmanArkhamUK" target="_blank" rel="noreferrer"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com/BatmanArkham" target="_blank" rel="noreferrer"><img src="twitter.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/user/BatmanArkhamCity" target="_blank" rel="noreferrer"><img src="youtube.png" alt="YouTube"></a>
+        <a href="https://instagram.com/batmanarkham" target="_blank" rel="noreferrer"><img src="instagram.png" alt="Instagram"></a>
+      </div>
+      <p class="copyright">&copy; 2026 HashirLimited. Fan-made redesign for Batman fans.</p>
     </footer>
   </div>
 </body>

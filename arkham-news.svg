@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Arkham Knight news panel</title>
+  <desc id="desc">A clean news graphic with Batman silhouette, Gotham skyline, and glowing interface lines.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#04060a"/>
+      <stop offset="100%" stop-color="#0c1219"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="52%" cy="35%" r="38%">
+      <stop offset="0%" stop-color="#58d6ff" stop-opacity=".3"/>
+      <stop offset="60%" stop-color="#58d6ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg2)"/>
+  <ellipse cx="600" cy="330" rx="300" ry="180" fill="url(#glow2)"/>
+  <g fill="#11161e">
+    <rect x="0" y="600" width="1200" height="300"/>
+    <rect x="0" y="530" width="90" height="370"/>
+    <rect x="102" y="470" width="60" height="430"/>
+    <rect x="174" y="580" width="96" height="320"/>
+    <rect x="280" y="448" width="74" height="452"/>
+    <rect x="366" y="520" width="120" height="380"/>
+    <rect x="498" y="406" width="68" height="494"/>
+    <rect x="580" y="490" width="128" height="410"/>
+    <rect x="720" y="450" width="74" height="450"/>
+    <rect x="804" y="540" width="112" height="360"/>
+    <rect x="928" y="410" width="84" height="490"/>
+    <rect x="1028" y="505" width="96" height="395"/>
+    <rect x="1132" y="470" width="68" height="430"/>
+  </g>
+  <path fill="#000" opacity=".96" d="M600 96c-49 0-95 18-131 51-68 9-123 52-143 114 57 4 108 31 140 75-48 19-82 65-82 120 0 10 1 20 3 30 49-23 104-21 150 5 21-23 46-39 73-46 22 10 46 15 70 15s48-5 70-15c27 7 52 23 73 46 46-26 101-28 150-5 2-10 3-20 3-30 0-55-34-101-82-120 32-44 83-71 140-75-20-62-75-105-143-114-36-33-82-51-131-51-30 0-59 6-86 19-27-13-56-19-86-19zm0 80c28 0 53 11 72 29l26 28-41 127-57-76-57 76-41-127 26-28c19-18 44-29 72-29z"/>
+  <g stroke="#58d6ff" stroke-opacity=".55" stroke-width="2" fill="none">
+    <path d="M68 168h220"/>
+    <path d="M882 140h250"/>
+    <path d="M198 192l36 36"/>
+    <path d="M972 178l42 42"/>
+    <path d="M312 744h160"/>
+    <path d="M730 738h170"/>
+  </g>
+</svg>

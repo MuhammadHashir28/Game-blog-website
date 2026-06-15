@@ -3,86 +3,175 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Batman Arkham Knight - Discover the ultimate gaming experience. Explore features, trailer, and exclusive content.">
-  <title>Batman Arkham Knight - Official Game Blog</title>
-  <link rel="stylesheet" type="text/css" href="sample.css" />
+  <meta name="description" content="Batman Arkham Knight fan game blog with story, gameplay, media, and community updates.">
+  <title>Batman Arkham Knight | Game Blog</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sample.css">
+  <script src="effects.js" defer></script>
 </head>
-<body>
+<body class="home-page">
   <div id="container">
-    <!-- Header -->
-    <header id="header" class="logo">
-      <img src="logo2.jpg" alt="Batman Arkham Knight Logo">
-    </header>
-
-    <!-- Main Content Area -->
-    <div id="main">
-      <!-- Navigation Sidebar -->
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="Batman Arkham Knight home">
+        <span class="" aria-hidden="true"><img src="arkham-logo.png" alt=""></span>
+        
+      </a>
       <nav id="navigation">
         <ul>
-          <li><a href="index.html">🏠 Home</a></li>
-          <li><a href="about.html">ℹ️ About</a></li>
-          <li><a href="watch.html">🎬 Trailer</a></li>
-          <li><a href="contact.html">📧 Contact</a></li>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">Story</a></li>
+          <li><a href="watch.html">Trailer</a></li>
+          <li><a href="purchase.html">Purchase</a></li>
+          <li><a href="contact.html">Community</a></li>
         </ul>
       </nav>
+    </header>
 
-      <!-- Content Section -->
-      <div id="content" class="home">
-        <h2>Welcome to Arkham Knight</h2>
-        <p>
-          In the explosive finale to the Arkham series, Batman faces the ultimate threat against the city he is sworn to protect. 
-          The Scarecrow returns to unite an impressive roster of super villains, including Penguin, Two-Face, Harley Quinn, and the 
-          mysterious new threat: Arkham Knight. Experience the most intense Batman adventure ever created.
-        </p>
-        
-        <!-- Thumbnail Gallery -->
-        <div id="wrapper">
-          <div class="thumbnail">
-            <img src="image1.jpg" alt="Arkham Knight Gameplay">
-          </div>
-          <div class="thumbnail">
-            <img src="image2.jpg" alt="Batman Combat">
-          </div>
-          <div class="thumbnail">
-            <img src="image3.jpg" alt="Gotham City">
+    <main>
+      <section class="hero home-hero tilt-surface">
+        <div class="parallax-layer layer-smoke" aria-hidden="true"></div>
+        <div class="parallax-layer layer-bats" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Rocksteady Studios Presents</p>
+          <h1 class="cinematic-title"><span>Batman</span></h1>
+          <p class="hero-text">
+            Step into the explosive finale of the Arkham saga, where Scarecrow returns,
+            the Batmobile owns the streets, and a new armored enemy pushes Batman to the edge.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="watch.html">Watch Trailer</a>
+            <a class="button ghost" href="about.html">Explore Story</a>
+            <a class="button ghost" href="purchase.html">Buy Now</a>
           </div>
         </div>
-      </div>
-    </div>
+        <div class="hero-panel" aria-label="Game details">
+          <span>Release</span>
+          <strong>June 23, 2015</strong>
+          <span>Mode</span>
+          <strong>Single-player action adventure</strong>
+          <span>Setting</span>
+          <strong>Open-world Gotham City</strong>
+          <span>Platforms</span>
+          <strong>PC, PlayStation, Xbox</strong>
+        </div>
+      </section>
 
-    <!-- Footer -->
+      <section class="section intro-grid tilt-surface">
+        <div>
+          <p class="eyebrow">Latest Feature</p>
+          <h2>Built for the final night in Gotham</h2>
+          <p>
+            Batman: Arkham Knight expands the series with a larger city, faster traversal,
+            cinematic combat, predator encounters, forensic detective work, and the fully
+            playable Batmobile.
+          </p>
+        </div>
+        <div class="stat-grid">
+          <article>
+            <strong>3</strong>
+            <span>Main islands to patrol</span>
+          </article>
+          <article>
+            <strong>12+</strong>
+            <span>Major villains and factions</span>
+          </article>
+          <article>
+            <strong>1</strong>
+            <span>Final war for Gotham</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section feature-strip tilt-surface">
+        <article class="feature-card">
+          <img src="image1.jpg" alt="Batman overlooking Gotham City at night">
+          <div>
+            <p class="eyebrow">Open World</p>
+            <h3>Patrol a living Gotham</h3>
+            <p>Glide through rain, neon, drones, bridges, towers, and crime scenes with the city always in motion.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="image2.jpg" alt="Batman facing the Arkham Knight">
+          <div>
+            <p class="eyebrow">New Enemy</p>
+            <h3>Face the Arkham Knight</h3>
+            <p>A militarized rival knows Batman's methods, gear, and weaknesses before the first punch lands.</p>
+          </div>
+        </article>
+        <article class="feature-card">
+          <img src="image3.jpg" alt="Batman Arkham Knight Batmobile edition artwork">
+          <div>
+            <p class="eyebrow">Collector Intel</p>
+            <h3>Gear, skins, and Batmobile</h3>
+            <p>Track editions, collectibles, skins, and game extras in a sharper fan-blog format.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section parallax-band tilt-surface" aria-label="Gotham skyline">
+        <img class="band-art" src="bat-gotham.png" alt="" aria-hidden="true">
+        <div>
+          <p class="eyebrow">Gotham Nights</p>
+          <h2>Rain, neon, steel, and fear.</h2>
+        </div>
+      </section>
+
+      <section class="section trailer-tease tilt-surface">
+        <div class="video-copy">
+          <p class="eyebrow">Watch First</p>
+          <h2>See the Batmobile tear through Gotham</h2>
+          <p>
+            The official gameplay trailer is now embedded with YouTube, so the media page
+            and purchase page both feel like modern game-site experiences.
+          </p>
+          <a class="text-link" href="watch.html">Open trailer page</a>
+        </div>
+        <div class="youtube-frame">
+			<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/RUhcQvlOm7k?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; web-share *;" referrerpolicy="strict-origin"></iframe></div>
+        </div>
+      </section>
+
+      <section class="section split-showcase tilt-surface">
+        <div class="showcase-copy">
+          <p class="eyebrow">From the Blog</p>
+          <h2>Everything is darker, faster, and more tactical.</h2>
+          <p>
+            The redesigned site now highlights story beats, gameplay systems, trailers,
+            purchase options, gallery artwork, and community links with a modern editorial feel.
+          </p>
+          <a class="text-link" href="purchase.html">Go to purchase page</a>
+        </div>
+        <img src="aboutimg.png" alt="Batman Arkham Knight key art">
+      </section>
+
+      <section class="section poster-feature tilt-surface">
+        <div class="poster-copy">
+          <p class="eyebrow">Character Focus</p>
+          <h2>The Dark Knight, framed like a movie poster.</h2>
+          <p>
+            This new section gives the page a more cinematic break and carries the design language
+            from your reference images into a bigger, poster-like composition.
+          </p>
+        </div>
+        <img src="arkham-poster.png" alt="Batman Arkham Knight poster artwork">
+      </section>
+    </main>
+
     <footer id="footer">
-      <div>
-        <div id="others">
-          <img src="rightlogos.png" alt="Game Logos">
-        </div>
-
-        <div id="socialmedia">
-          <b>🌐 Follow Us On Social Media</b>
-          <a href="https://www.facebook.com/BatmanArkhamUK" target="_blank">
-            <img src="facebook.png" alt="Facebook" title="Facebook">
-          </a>
-          <a href="https://twitter.com/BatmanArkham" target="_blank">
-            <img src="twitter.png" alt="Twitter" title="Twitter">
-          </a>
-          <a href="https://www.youtube.com/user/BatmanArkhamCity" target="_blank">
-            <img src="youtube.png" alt="YouTube" title="YouTube">
-          </a>
-          <a href="https://instagram.com/batmanarkham" target="_blank">
-            <img src="instagram.png" alt="Instagram" title="Instagram">
-          </a>
-        </div>
-
-        <div id="copyrights">
-          <div id="copyrightbox">
-            <sub>
-              <b>© 2024 HashirLimited</b><br>
-              Batman Arkham Knight - All Rights Reserved<br>
-              <small>Created with passion for Batman fans</small>
-            </sub>
-          </div>
-        </div>
+      <div class="footer-brand">
+        <span class="" aria-hidden="true"><img src="arkham-logo.png" alt=""></span>
+        
       </div>
+      <div id="socialmedia" aria-label="Social links">
+        <a href="https://www.facebook.com/BatmanArkhamUK" target="_blank" rel="noreferrer"><img src="facebook.png" alt="Facebook"></a>
+        <a href="https://twitter.com/BatmanArkham" target="_blank" rel="noreferrer"><img src="twitter.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/user/BatmanArkhamCity" target="_blank" rel="noreferrer"><img src="youtube.png" alt="YouTube"></a>
+        <a href="https://instagram.com/batmanarkham" target="_blank" rel="noreferrer"><img src="instagram.png" alt="Instagram"></a>
+      </div>
+      <p class="copyright">&copy; 2026 HashirLimited. Fan-made redesign for Batman fans.</p>
     </footer>
   </div>
 </body>

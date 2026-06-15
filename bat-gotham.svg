@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Gotham bat backdrop</title>
+  <desc id="desc">A dark Gotham skyline with a bat silhouette and soft fog for background use.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1016"/>
+      <stop offset="55%" stop-color="#090b0f"/>
+      <stop offset="100%" stop-color="#030406"/>
+    </linearGradient>
+    <radialGradient id="mist" cx="50%" cy="62%" r="48%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity=".34"/>
+      <stop offset="45%" stop-color="#b8c5cf" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" fill="url(#sky)"/>
+  <ellipse cx="700" cy="540" rx="400" ry="220" fill="url(#mist)" filter="url(#blur)"/>
+  <g fill="#0f151c" opacity=".95">
+    <rect x="0" y="480" width="80" height="160"/>
+    <rect x="82" y="430" width="50" height="210"/>
+    <rect x="140" y="470" width="88" height="170"/>
+    <rect x="234" y="406" width="50" height="234"/>
+    <rect x="292" y="448" width="72" height="192"/>
+    <rect x="372" y="386" width="42" height="254"/>
+    <rect x="430" y="420" width="86" height="220"/>
+    <rect x="530" y="360" width="58" height="280"/>
+    <rect x="600" y="412" width="108" height="228"/>
+    <rect x="722" y="330" width="64" height="310"/>
+    <rect x="800" y="395" width="86" height="245"/>
+    <rect x="902" y="348" width="50" height="292"/>
+    <rect x="966" y="404" width="120" height="236"/>
+    <rect x="1104" y="370" width="56" height="270"/>
+    <rect x="1176" y="444" width="110" height="196"/>
+    <rect x="1300" y="412" width="100" height="228"/>
+  </g>
+  <path fill="#000000" opacity=".94" d="M700 86c-83 0-160 39-207 104-94 15-174 83-197 174 85 3 159 44 206 109-74 33-126 109-126 196 0 20 3 39 8 57 72-31 155-25 219 15 32-35 74-58 121-67 30 16 64 24 98 24s68-8 98-24c47 9 89 32 121 67 64-40 147-46 219-15 5-18 8-37 8-57 0-87-52-163-126-196 47-65 121-106 206-109-23-91-103-159-197-174-47-65-124-104-207-104-51 0-100 13-144 38-44-25-93-38-144-38Zm0 146c45 0 86 22 114 55l50 61-74 222-90-120-90 120-74-222 50-61c28-33 69-55 114-55Z"/>
+  <g fill="#ffffff" opacity=".12">
+    <circle cx="216" cy="205" r="2"/>
+    <circle cx="326" cy="158" r="1.8"/>
+    <circle cx="1080" cy="215" r="2"/>
+    <circle cx="1170" cy="167" r="1.8"/>
+    <circle cx="700" cy="226" r="1.6"/>
+    <circle cx="651" cy="640" r="1.4"/>
+    <circle cx="749" cy="640" r="1.4"/>
+  </g>
+</svg>
