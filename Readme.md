@@ -4,6 +4,8 @@ A multi-page game website built using `HTML` and `CSS` skills which includes cus
 
 Open and view the Project using the `.zip` file provided or at my [Github Repository](https://github.com/MuhammadHashir28/Game-blog-website).
 
+![Website Preview](https://raw.githubusercontent.com/MuhammadHashir28/Game-blog-website/refs/heads/main/images/website-preview.PNG)
+
 ## Table of Contents
 - [Getting Started](#getting-started)
 	- [Tools Required](#tools-required)
