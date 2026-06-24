@@ -33,23 +33,33 @@ No additional installation is required for this project
   * Basic page content
   * Footer with social media links
   
-* Create `views` directory with the following pages:
-  * `about.html` with about-us info.
-  * `contact.html` with contact details.
-  * `watch.html` with trailer link attached.
+* Create the following pages:
+  * `about.html` with story and game information
+  * `contact.html` with community and social links
+  * `watch.html` with trailer and media gallery
+  * `purchase.html` with purchase options and store links
   
-  Reuse navbar and footer code
+  Reuse navbar and footer code across all pages
 
 * Create `css` directory with the following files:
   * `sample.css` with the global styling
   
-For details now how everything has been implemented, refer the source code.
+* Create `js` directory with the following files:
+  * `effects.js` with interactive effects and animations
+
+* Create `img` directory with the following assets:
+  * All images, icons, and media files organized in one location
+
+For details on how everything has been implemented, refer the source code.
 
 ## Features
 
-* Only first blog post has a dedicated page for it, rest are all dummies.
-* There are 2 major pages for the website: `Landing page` and `Watch Page`.
-* The project also contains a dedicated `About-Us` page.
+* Multi-page game blog with 5 main pages: Home, Story, Trailer, Purchase, and Community
+* SEO optimized with meta tags, Open Graph, Twitter Cards, and structured data
+* Responsive design with mobile-first approach
+* Interactive animations and tilt effects
+* Embedded YouTube trailers
+* Organized folder structure for better maintainability
 
 ## Running the App
 
